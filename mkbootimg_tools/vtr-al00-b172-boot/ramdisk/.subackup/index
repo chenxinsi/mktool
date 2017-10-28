@@ -1,0 +1,14 @@
++ init.supersu.rc
++ sbin/launch_daemonsu.sh
++ su
+* file_contexts.bin 0000_file_contexts.bin
+* fstab.hi3660 0001_fstab.hi3660
+* fstab.zram1024m 0002_fstab.zram1024m
+* fstab.zram1536m 0003_fstab.zram1536m
+* fstab.zram512m 0004_fstab.zram512m
+* fstab.zram768m 0005_fstab.zram768m
+* init.environ.rc 0006_init.environ.rc
+* init.hisi.rc 0007_init.hisi.rc
+* init.rc 0008_init.rc
+* sepolicy 0009_sepolicy
+- verity_key 0010_verity_key

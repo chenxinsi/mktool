@@ -1,0 +1,12 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=2048
+kernel_size=11848335
+ramdisk_size=7108355
+base_addr=0x00078000
+kernel_offset=0x00008000
+ramdisk_offset=0x07b88000
+tags_offset=0x07988000
+cmd_line='loglevel=4 initcall_debug=n page_tracker=on androidboot.selinux=enforcing'
+board=""
+format=gzip
